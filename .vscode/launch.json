@@ -12,9 +12,9 @@
             "remotePath": "",
             "port": 2345,
             "host": "127.0.0.1",
-            "program": "${workspaceRoot}/cmd/ethatomicswap",
+            "program": "${workspaceRoot}/cmd/ethatomicswap/",
             "env": {"GOPATH": "/Users/brunokenj/go"},
-            "args": [],
+            "args": ["initiate", "5d20a72c7c0f92ebcfe9bbda9427bfcfd60d653d", "10", "-rpcpass=teste", "-rpcuser=teste", "-s=127.0.0.1"],
             "showLog": true
         }
     ]
